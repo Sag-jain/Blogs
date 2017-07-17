@@ -1,0 +1,382 @@
+body,html
+{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+}
+::-webkit-scrollbar {
+    width: .4em;
+    height: .4em;
+}
+::-webkit-scrollbar-track-piece {
+    background: #595959;
+     
+}
+::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius:5px;
+}
+.img-protect
+{
+    user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.preload
+{
+    -webkit-animation-name: none !important; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: none !important; /* Safari 4.0 - 8.0 */
+    animation-name: none !important;
+    animation-duration: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+}
+.htmlDiv
+{
+    width:100%;
+    height:59%;
+    background-color: #595959;
+}
+.gifbird
+{
+    width:150px;
+    height: 150px;
+    position: fixed;
+    right: 3%;
+    top: 200px;
+    opacity: .6;
+    
+    -webkit-animation-name: birdanimate; 
+    -webkit-animation-duration: 14s;
+    -webkit-animation-iteration-count: 3; 
+    animation-name: birdanimate;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes birdanimate {
+    0%   { top:100px;}
+    50% {top:300px;}
+    100% {top:100px;}
+}
+
+/* Standard syntax */
+@keyframes birdanimate {
+    0%  { top:100px;}
+    50% {top:300px;}
+    100% {top:100px;}}
+.cloudright
+{
+    float:right;
+    position:absolute;
+    width:50%;
+    left:50%;
+    height:55%;
+    -webkit-animation-name:cloudanimate2;
+    -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     animation-name: cloudanimate2;
+    
+}
+@-webkit-keyframes cloudanimate2
+    {
+        0% {left:75%; }
+       100% {left:50%; }
+    }
+    /* Standard syntax */
+@keyframes cloudanimate2 {
+    0% {left:75%; }
+       100% {left:50%; }
+}
+.cloudleft
+{
+    float:left;
+    position:absolute;
+    width:50%;
+    height:55%;
+    -webkit-animation-name:cloudanimate1;
+    -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     animation-name: cloudanimate1;
+}
+@-webkit-keyframes cloudanimate1
+    {
+        0% {left:-500px; }
+       100% {left:0px; }
+    }
+    /* Standard syntax */
+@keyframes cloudanimate1 {
+    0% {left:-500px; }
+       100% {left:0px; }
+}
+a
+{
+    color:white;
+}
+a:hover
+{
+    text-decoration-line: none;
+    color:red;
+}
+.header
+{
+    color:white;
+    position: absolute;
+    margin-left: 20%;
+    -webkit-animation-name:headeranimate;
+    -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     animation-name: headeranimate;
+    
+}
+@-webkit-keyframes headeranimate
+    {
+                0% {top:-100px;opacity: .4 }
+                25% {opacity: .5 }
+                50% {opacity: .7 }
+                75% {opacity: .8 }
+               100% {top:60px; }
+    }
+    /* Standard syntax */
+@keyframes headeranimate {
+                0% {top:-100px;opacity: .4 }
+                25% {opacity: .5 }
+                50% {opacity: .7 }
+                75% {opacity: .8 }
+               100% {top:60px; }
+}
+
+.span1
+{
+    font-size: 25px;
+    font-family: Courier New;
+    
+}
+
+.para1
+{
+ 
+    font-size: 20px;
+    font-family: Courier New;
+    width: 80%;
+    
+}
+.thnkmsg
+{
+    opacity: .7;
+    font-family: Courier New; 
+    
+}
+th
+{
+    text-align: center;
+    background-color: #595959;
+    color: white;
+}
+th,table,tr,td
+{
+    font-size: 20px;
+    font-family: Courier New; 
+    
+    border: 1px solid black;
+    
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #595959;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  opacity: .5;
+    
+}
+#mynav
+{
+  background-color: #595959;
+  z-index: 99;
+  display: none;
+  position: fixed;
+  width: 100%;
+     -webkit-animation-name:animate1;
+         -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        animation-name: animate1;
+}
+@-webkit-keyframes animate1
+    {
+        0% {top:-70px; }
+       100% {top:0px; }
+    }
+    /* Standard syntax */
+@keyframes animate1 {
+    0%   { top:-70px;}
+    100%  { top:0px;}
+   
+}
+#myBtn:hover {
+  background-color: black;
+    opacity: .7;
+    
+}
+.contacts
+{
+    
+    background-color: #595959;
+}
+.cont-img
+{
+    width:100px;
+    height: 100px;
+    border-radius: 80px;
+    float: left;
+}
+.headerDiv
+{
+    padding: 16px 16px 16px;
+}
+.cont-intro
+{
+    color: #cccccc;
+    padding: 16px 16px 16px;
+    float: left;
+    font-family: Courier New;
+    
+}
+.cont1
+{
+    color: #cccccc;
+    float: left;
+    font-family: Courier New;
+    
+}
+.cont2
+{
+    color: #cccccc;
+    float: left;
+    font-family: Courier New;
+    margin-left:5%;
+    
+}
+.cont3
+{
+    color: #cccccc;
+    float: right;
+    font-family: Courier New;
+    
+    
+}
+ul
+{
+    
+    padding: 0px;
+    margin: 0px;
+}
+li
+{
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+    display: inline;
+}
+
+@media (max-width:480px)
+{
+    .thnkmsg
+{
+    opacity: .7;
+    font-family: Courier New; 
+    font-size: 15px;
+}
+    .span1
+{
+    font-size: 17px;
+    font-family: Courier New;
+    
+}
+    .para1
+{
+ 
+    font-size: 13px;
+    font-family: Courier New;
+    width: 100%;
+    
+}
+    
+    table
+    {
+     table-layout: fixed; 
+     width: 100%;
+       
+    }
+
+    th,table,tr,td
+{
+    
+    font-size:13px;
+    font-family: Courier New; 
+    
+    border: 1px solid black;
+    
+}
+    .cont1
+{
+    color: #cccccc;
+    float: left;
+    font-family: Courier New;
+    font-size: 13px;
+    padding: 10px 10px 10px;
+    margin-left: 5%;
+    
+}
+.cont2
+{
+    color: #cccccc;
+    float: left;
+    font-family: Courier New;
+    margin-left:5%;
+    font-size: 13px;
+    padding: 10px 10px 10px;
+    
+}
+.cont3
+{
+    color: #cccccc;
+    font-family: Courier New;
+    font-size: 13px;
+    padding: 10px 10px 10px;
+    margin-left: 5%;
+    
+}
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #595959;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: .5;
+    
+}
+}
