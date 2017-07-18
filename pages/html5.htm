@@ -16,7 +16,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 	
 </head>
-<body>
+<body oncontextmenu="return false;">
     <div class="se-pre-con"></div>
     <img src="../images/11.gif" class="gifbird img-protect">
 
@@ -226,7 +226,15 @@ var mapattr = {<br />
             <br><br>
             &lt;a href="/abc.doc" <b style="background-color:yellow;">download</b>&gt;Click to Download CV&lt;/a&gt;
             <br><br>
-            <b>5. Additional tags introduced in HTML5</b><br><br>
+             <b class="span1">5. How to avoid Others to copy or inspect Your webpage Source?  </b><br><br>
+            
+                You can avoid others to inspect your webpage source and copying text of your webpage, It is very simple to resist this activities of others , just use <b style="background-color:yellow;">oncontextmenu</b> attribute on your body tag and return false..
+                It will disable the right click of the mouse .
+                <br><b>Example:</b><br>
+                &lt;body oncontextmenu="return false;"&gt;<br>.......<br>
+                 &lt;/body&gt; 
+            <br><br>
+            <b>6. Additional tags introduced in HTML5</b><br><br>
             There are lots of new tags and features are included. As we discussed earlier &lt;audio&gt; and  &lt;video&gt; that handle multimedia 
             content .  &lt;Canvas&gt;  elements were added, and support for scalable vector graphics (SVG) content.<br>
             Here are some more tags which introduced in HTML5. <br>
@@ -294,6 +302,7 @@ var mapattr = {<br />
            
                 <div class="fb-like" data-href="https://sag-jain.github.io/Blogger/pages/html5.htm" data-width="200" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
         </div>
+	    <br><br>
     </div>
     
 </body>
