@@ -79,7 +79,7 @@ user-select: none;
     width:150px;
     height: 150px;
     position: fixed;
-    right: 13%;
+    right: 3%;
     top: 200px;
     opacity: .8;
     
@@ -104,10 +104,10 @@ user-select: none;
 
 .gifbootstrap
 {
-    width:100px;
-    height: 100px;
+    width:120px;
+    height: 120px;
     position: fixed;
-    right: 13%;
+    right: 5%;
     top: 200px;
     opacity: .9;
     
@@ -132,10 +132,10 @@ user-select: none;
 
 .gifguy
 {
-    width:200px;
-    height: 250px;
+    width:150px;
+    height: 150px;
     position: fixed;
-    right: 13%;
+    right: 3%;
     top: 200px;
     opacity: .8;
     
